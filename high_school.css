@@ -1,0 +1,30 @@
+/*styling for high school page*/
+
+h1{
+    padding: 10px 0px;
+}
+p{
+    padding: 10px 0px;
+    
+}
+
+
+.topImg{
+    overflow: hidden;
+    width: 100%; 
+    text-align: center; 
+    padding-bottom: 20px;
+}
+
+#topImg{
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+@media(max-width: 900px){
+    #sideImg{
+        width: 16%;
+        padding:1%;
+    }
+}
+
